@@ -9,7 +9,7 @@ Este proyecto implementa un sistema de chat distribuido donde múltiples servido
 
 ---
 
-## 🚀 Instrucciones de Uso
+##  Instrucciones de Uso
 
 ### 1. Compilación
 Si no has compilado los archivos aún, ejecuta lo siguiente en tu terminal:
@@ -53,12 +53,12 @@ Abre terminales nuevas para los usuarios y conéctate a cualquier nodo:
 
 ---
 
-## 🛠️ Detalles Técnicos
+## Detalles Técnicos
 -   **Multiplexación**: Se utiliza la llamada al sistema `select()` para manejar múltiples descriptores de archivos sin necesidad de hilos o múltiples procesos pesados.
 -   **Propagación de Mensajes**: El sistema utiliza un algoritmo de inundación básica (flooding) para asegurar que los mensajes lleguen a todos los nodos de la red sin ciclos infinitos simples.
 -   **Interfaz Visual**: Se utilizan códigos de colores ANSI para diferenciar los tipos de mensajes (Información, Errores, Peer, Mensajes de Usuario).
 
 ---
 
-## 📝 Notas del Ejercicio
+## Notas del Ejercicio
 El código está diseñado para ser de fácil lectura y cumplir con los requerimientos de la materia de **Sistemas Distribuidos**.
